@@ -1,0 +1,66 @@
+/* Configuração geral do corpo para centralizar tudo na tela */
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    text-align: center;
+    width: 350px; /* Largura aproximada da imagem */
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #000;
+}
+
+/* Estilo do Campo de Texto */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Agrupamento dos botões lado a lado */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+button {
+    width: 45%; /* Cada botão ocupa quase metade da largura */
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* Cores específicas da imagem */
+.btn-buscar {
+    background-color: #1976d2; /* Azul */
+}
+
+.btn-limpar {
+    background-color: #e64a19; /* Laranja/Vermelho */
+}
+
+/* Área do Resultado */
+.resultado-container {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #333;
+}
