@@ -1,6 +1,6 @@
-/* Configuração geral do corpo para centralizar tudo na tela */
+
 body {
-    background-color: #f8f9fa;
+    background-color: #f0f2f5;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,8 +10,12 @@ body {
 }
 
 .main-container {
+    background-color: #ffffff;
+    width: 380px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 350px; /* Largura aproximada da imagem */
 }
 
 h2 {
@@ -20,9 +24,9 @@ h2 {
     color: #000;
 }
 
-/* Estilo do Campo de Texto */
+
 input {
-    width: 100%;
+    width: 200px;
     padding: 12px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -31,7 +35,7 @@ input {
     margin-bottom: 20px;
 }
 
-/* Agrupamento dos botões lado a lado */
+
 .button-group {
     display: flex;
     justify-content: space-between;
@@ -39,7 +43,7 @@ input {
 }
 
 button {
-    width: 45%; /* Cada botão ocupa quase metade da largura */
+    width: 45%; 
     padding: 12px;
     border: none;
     border-radius: 6px;
@@ -49,16 +53,16 @@ button {
     font-weight: 500;
 }
 
-/* Cores específicas da imagem */
+
 .btn-buscar {
-    background-color: #1976d2; /* Azul */
+    background-color: #1976d2; 
 }
 
 .btn-limpar {
-    background-color: #e64a19; /* Laranja/Vermelho */
+    background-color: #e64a19; 
 }
 
-/* Área do Resultado */
+
 .resultado-container {
     font-size: 1.1rem;
     line-height: 1.5;
