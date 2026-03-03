@@ -1,4 +1,3 @@
-
 const btnBuscar = document.querySelector('#btnBuscar');
 const btnLimpar = document.querySelector('#btnLimpar');
 const cepInput = document.querySelector('#cepInput');
